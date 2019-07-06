@@ -1,0 +1,33 @@
+{
+    "name": "hightchart-study",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "parcel index.html",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jjori-master/hightchart-study.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jjori-master/hightchart-study/issues"
+    },
+    "homepage": "https://github.com/jjori-master/hightchart-study#readme",
+    "devDependencies": {
+        "@vue/component-compiler-utils": "^3.0.0",
+        "eslint": "^6.0.1",
+        "parcel-bundler": "^1.12.3",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "dependencies": {
+        "vue": "^2.6.10",
+        "vue-hot-reload-api": "^2.3.3",
+        "vue-router": "^3.0.7",
+        "vuetify": "^1.5.16"
+    }
+}
