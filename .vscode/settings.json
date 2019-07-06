@@ -1,0 +1,43 @@
+{
+  // 탐색기에서 제외
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/.idea": true,
+    "**/.vscode": false,
+    "**/yarn.lock": true,
+    "**/tmp": true
+  },
+  // 검색 대상에서 제외
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/tmp": true,
+    "**/coverage": true,
+    "**/build": true,
+    "**/Pods": true,
+    "**/*.xcodeproj": true,
+    "**/*.xcworkspace": true
+  },
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    }, //vue 체크
+    {
+      "language": "javascript",
+      "autoFix": true
+    }, //자바스크립트 체크
+    {
+      "language": "html",
+      "autoFix": true
+    } //HTML 체크 <div></div> -> <div />
+  ],
+  // 파일 저장시에 eslint fix를 자동으로 실행하게 한다.
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+}
